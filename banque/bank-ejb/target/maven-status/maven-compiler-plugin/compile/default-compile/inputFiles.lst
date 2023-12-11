@@ -1,0 +1,14 @@
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/init/InitializerBean.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/writer/WriterBean.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/init/Initializer.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/reader/Reader.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/reader/LocalReader.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/entity/Transaction.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/writer/RemoteWriter.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/writer/Writer.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/mdb/JMSMessageBean.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/reader/ReaderBean.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/entity/Account.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/writer/LocalWriter.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/bmp/AccountBmp.java
+/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/banque/bank-ejb/src/main/java/reader/RemoteReader.java

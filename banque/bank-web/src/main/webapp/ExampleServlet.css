@@ -1,0 +1,103 @@
+/* Réinitialisation CSS */
+body, h1, form, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles globaux */
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* En-tête */
+  header {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .home-button {
+    background-color: white;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Section principale */
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #4a4a4a;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles des sections */
+  .Account-display, .additional-links {
+    margin-top: 20px;
+  }
+  
+  .admin-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-button:hover {
+    background-color: #218838;
+  }
+  
+
+  .Account-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 5px 0;
+  }
+  

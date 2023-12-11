@@ -1,0 +1,53 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+header .home-button {
+    background-color: white;
+    color: #007bff;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+main h1 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.exception {
+    background-color: #ffcccc;
+    color: #a94442;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.exception pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.validate-button{
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+} 

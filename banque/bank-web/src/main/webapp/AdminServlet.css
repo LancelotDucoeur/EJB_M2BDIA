@@ -1,0 +1,92 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+header .home-button {
+    background-color: white;
+    color: #007bff;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+h1, h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Styles pour les sections spécifiques */
+.init-account, .account-list, .add-account, .exception {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Styles pour le formulaire d'ajout de account */
+.add-account form {
+    margin-top: 10px;
+}
+
+.add-account input[type="text"], 
+.add-account input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.add-account input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.add-account input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Styles pour l'affichage des accounts */
+.account-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.account-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Styles pour les erreurs et exceptions */
+.exception {
+    background-color: #ffcccc;
+    color: #a94442;
+    border-color: #f2dede;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.exception pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

@@ -1,0 +1,16 @@
+writer/WriterBean.class
+init/InitializerBean.class
+reader/Reader.class
+entity/Account$QN.class
+reader/RemoteReader.class
+writer/LocalWriter.class
+entity/Transaction$QN.class
+reader/ReaderBean.class
+entity/Transaction.class
+writer/RemoteWriter.class
+mdb/JMSMessageBean.class
+writer/Writer.class
+reader/LocalReader.class
+entity/Account.class
+AccountBmp.class
+init/Initializer.class

@@ -1,0 +1,3 @@
+web/AdminServlet.class
+web/ExampleServlet.class
+org/jboss/as/quickstarts/servlet/MdbServlet.class

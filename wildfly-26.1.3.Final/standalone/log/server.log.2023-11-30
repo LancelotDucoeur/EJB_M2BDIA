@@ -1,0 +1,778 @@
+2023-11-30 08:13:09,412 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2023-11-30 08:13:15,192 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-11-30 08:13:15,212 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-30 08:13:15,517 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2023-11-30 08:13:15,518 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/gide/jdk1.8.0_333/jre/lib/endorsed
+	java.ext.dirs = /usr/gide/jdk1.8.0_333/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/gide/jdk1.8.0_333/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_333-b02
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_333
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.333-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final
+	jboss.host.name = mi104-09
+	jboss.modules.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mi104-09
+	jboss.qualified.host.name = mi104-09
+	jboss.server.base.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone
+	jboss.server.config.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/configuration
+	jboss.server.data.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/data
+	jboss.server.deploy.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/data/content
+	jboss.server.log.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/log
+	jboss.server.name = mi104-09
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/configuration/logging.properties
+	module.path = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/modules
+	org.jboss.boot.log.file = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 6.1.0-13-amd64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/gide/jdk1.8.0_333/jre/lib/resources.jar:/usr/gide/jdk1.8.0_333/jre/lib/rt.jar:/usr/gide/jdk1.8.0_333/jre/lib/sunrsasign.jar:/usr/gide/jdk1.8.0_333/jre/lib/jsse.jar:/usr/gide/jdk1.8.0_333/jre/lib/jce.jar:/usr/gide/jdk1.8.0_333/jre/lib/charsets.jar:/usr/gide/jdk1.8.0_333/jre/lib/jfr.jar:/usr/gide/jdk1.8.0_333/jre/classes
+	sun.boot.library.path = /usr/gide/jdk1.8.0_333/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/jboss-modules.jar -mp /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final -Djboss.server.base.dir=/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone --server-config=standalone-full-ha.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = FR
+	user.dir = /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final
+	user.home = /home1/ld754555
+	user.language = fr
+	user.name = ld754555
+	user.timezone = Europe/Paris
+2023-11-30 08:13:15,518 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/log/server.log -Dlogging.configuration=file:/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/configuration/logging.properties 
+2023-11-30 08:13:19,666 INFO  [org.wildfly.security] (ServerService Thread Pool -- 31) ELY00001: WildFly Elytron version 1.19.1.Final
+2023-11-30 08:13:24,027 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-30 08:13:24,132 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.7.Final
+2023-11-30 08:13:24,132 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 58) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-30 08:13:24,134 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-30 08:13:24,135 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 74) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-30 08:13:24,136 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 66) WFLYCLJG0001: Activating JGroups subsystem. JGroups version 4.2.21
+2023-11-30 08:13:24,137 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 75) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-30 08:13:24,137 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 86) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-30 08:13:24,138 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 59) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-30 08:13:24,142 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 88) WFLYWS0002: Activating WebServices Extension
+2023-11-30 08:13:24,142 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.7.Final
+2023-11-30 08:13:24,143 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 76) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-11-30 08:13:24,144 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 73) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-30 08:13:24,145 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 63) WFLYRS0016: RESTEasy version 4.7.7.Final
+2023-11-30 08:13:24,192 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 78) WFLYNAM0001: Activating Naming Subsystem
+2023-11-30 08:13:24,208 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 69) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-30 08:13:24,208 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-11-30 08:13:24,273 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 50) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-11-30 08:13:24,278 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-30 08:13:24,282 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY00023: KeyStore file '/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2023-11-30 08:13:24,287 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 60) WFLYIIOP0001: Activating IIOP Subsystem
+2023-11-30 08:13:24,358 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2023-11-30 08:13:24,359 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-30 08:13:24,360 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-11-30 08:13:24,406 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 62) WFLYIO001: Worker 'default' has auto-configured to 40 IO threads with 320 max task threads based on your 20 available processors
+2023-11-30 08:13:24,416 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.2.19.Final starting
+2023-11-30 08:13:24,503 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.25.Final
+2023-11-30 08:13:24,654 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-30 08:13:24,657 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 80 (per class), which is derived from the number of CPUs on this host.
+2023-11-30 08:13:24,657 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 320 (per class), which is derived from thread worker pool sizing.
+2023-11-30 08:13:24,768 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0014: Creating file handler for path '/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-30 08:13:24,806 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2023-11-30 08:13:24,806 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2023-11-30 08:13:24,807 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2023-11-30 08:13:24,827 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-30 08:13:24,827 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow AJP listener ajp listening on 127.0.0.1:8009
+2023-11-30 08:13:24,830 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 90) MODCLUSTER000001: Initializing mod_cluster version 1.4.4.Final
+2023-11-30 08:13:24,836 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-30 08:13:24,836 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 90) MODCLUSTER000032: Listening to proxy advertisements on /224.0.1.105:23364
+2023-11-30 08:13:24,932 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-8) WFLYIIOP0009: CORBA ORB Service started
+2023-11-30 08:13:25,531 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-30 08:13:26,312 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 90) JGRP000015: the send buffer of socket ManagedMulticastSocketBinding was set to 1,00MB, but the OS only allocated 212,99KB
+2023-11-30 08:13:26,312 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 90) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 20,00MB, but the OS only allocated 212,99KB
+2023-11-30 08:13:26,313 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 90) JGRP000015: the send buffer of socket ManagedMulticastSocketBinding was set to 1,00MB, but the OS only allocated 212,99KB
+2023-11-30 08:13:26,313 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 90) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 25,00MB, but the OS only allocated 212,99KB
+2023-11-30 08:13:26,383 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-11-30 08:13:26,383 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/deployments
+2023-11-30 08:13:26,394 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ojdbc8.jar" (runtime-name: "ojdbc8.jar")
+2023-11-30 08:13:26,394 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "bank-ear.ear" (runtime-name: "bank-ear.ear")
+2023-11-30 08:13:26,638 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "bank-web.war")
+2023-11-30 08:13:26,638 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "bank-ejb.jar")
+2023-11-30 08:13:26,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry oraclepki.jar in /content/ojdbc8.jar  does not point to a valid jar for a Class-Path reference.
+2023-11-30 08:13:26,872 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2023-11-30 08:13:27,115 WARN  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2023-11-30 08:13:27,140 WARN  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0525: The 'mappedName' in Jakarta Enterprise Beans  annotations is not supported. Value of 'myInitializerBean' for Jakarta Enterprise Beans 'InitializerBean' will be ignored.
+2023-11-30 08:13:27,182 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for primary
+2023-11-30 08:13:27,486 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 19.3)
+2023-11-30 08:13:27,494 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = ojdbc8.jar
+2023-11-30 08:13:27,496 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/OracleDS]
+2023-11-30 08:13:27,509 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/bankDS]
+2023-11-30 08:13:27,529 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV53020253: Second level cache enabled for bank-ear.ear/bank-ejb.jar#primary
+2023-11-30 08:13:27,539 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment bank-ear.ear
+2023-11-30 08:13:27,946 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 6.0.23.Final
+2023-11-30 08:13:28,217 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment bank-ejb.jar
+2023-11-30 08:13:28,221 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ReaderBean' in deployment unit 'subdeployment "bank-ejb.jar" of deployment "bank-ear.ear"' are as follows:
+
+	java:global/bank-ear/bank-ejb/ReaderBean!reader.LocalReader
+	java:app/bank-ejb/ReaderBean!reader.LocalReader
+	java:module/ReaderBean!reader.LocalReader
+	java:global/bank-ear/bank-ejb/ReaderBean!reader.RemoteReader
+	java:app/bank-ejb/ReaderBean!reader.RemoteReader
+	java:module/ReaderBean!reader.RemoteReader
+	java:jboss/exported/bank-ear/bank-ejb/ReaderBean!reader.RemoteReader
+	ejb:bank-ear/bank-ejb/ReaderBean!reader.RemoteReader
+
+2023-11-30 08:13:28,221 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'InitializerBean' in deployment unit 'subdeployment "bank-ejb.jar" of deployment "bank-ear.ear"' are as follows:
+
+	java:global/bank-ear/bank-ejb/InitializerBean!init.Initializer
+	java:app/bank-ejb/InitializerBean!init.Initializer
+	java:module/InitializerBean!init.Initializer
+	java:jboss/exported/bank-ear/bank-ejb/InitializerBean!init.Initializer
+	ejb:bank-ear/bank-ejb/InitializerBean!init.Initializer
+	java:global/bank-ear/bank-ejb/InitializerBean
+	java:app/bank-ejb/InitializerBean
+	java:module/InitializerBean
+
+2023-11-30 08:13:28,221 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'WriterBean' in deployment unit 'subdeployment "bank-ejb.jar" of deployment "bank-ear.ear"' are as follows:
+
+	java:global/bank-ear/bank-ejb/WriterBean!writer.RemoteWriter
+	java:app/bank-ejb/WriterBean!writer.RemoteWriter
+	java:module/WriterBean!writer.RemoteWriter
+	java:jboss/exported/bank-ear/bank-ejb/WriterBean!writer.RemoteWriter
+	ejb:bank-ear/bank-ejb/WriterBean!writer.RemoteWriter
+	java:global/bank-ear/bank-ejb/WriterBean!writer.LocalWriter
+	java:app/bank-ejb/WriterBean!writer.LocalWriter
+	java:module/WriterBean!writer.LocalWriter
+
+2023-11-30 08:13:28,236 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: NoopTracer
+2023-11-30 08:13:28,271 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment bank-web.war
+2023-11-30 08:13:28,457 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-30 08:13:28,457 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=bank-ear.ear!bank-web.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@7916798f, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=MI104-09, jaeger.version=Java-1.6.0, ip=172.31.18.38}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-30 08:13:28,510 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 3.1.9 (Final)
+2023-11-30 08:13:28,545 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/queue/SampleQueue
+2023-11-30 08:13:28,573 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV53020253: Second level cache enabled for bank-ear.ear/bank-ejb.jar#primary
+2023-11-30 08:13:29,322 INFO  [org.jgroups.protocols.pbcast.GMS] (ServerService Thread Pool -- 90) mi104-09: no members discovered after 3003 ms: creating cluster as coordinator
+2023-11-30 08:13:29,796 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 93) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2023-11-30 08:13:29,832 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 93) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-11-30 08:13:29,832 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 91) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-11-30 08:13:29,832 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 92) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-11-30 08:13:29,832 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 94) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-11-30 08:13:30,078 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 93) ISPN000078: Starting JGroups channel `ejb`
+2023-11-30 08:13:30,078 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 91) ISPN000078: Starting JGroups channel `ejb`
+2023-11-30 08:13:30,078 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 92) ISPN000078: Starting JGroups channel `ejb`
+2023-11-30 08:13:30,078 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 94) ISPN000078: Starting JGroups channel `ejb`
+2023-11-30 08:13:30,082 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 94) ISPN000094: Received new cluster view for channel ejb: [mi104-09|0] (1) [mi104-09]
+2023-11-30 08:13:30,082 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 93) ISPN000094: Received new cluster view for channel ejb: [mi104-09|0] (1) [mi104-09]
+2023-11-30 08:13:30,082 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 92) ISPN000094: Received new cluster view for channel ejb: [mi104-09|0] (1) [mi104-09]
+2023-11-30 08:13:30,082 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 91) ISPN000094: Received new cluster view for channel ejb: [mi104-09|0] (1) [mi104-09]
+2023-11-30 08:13:30,094 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 93) ISPN000079: Channel `ejb` local address is `mi104-09`, physical addresses are `[127.0.0.1:55200]`
+2023-11-30 08:13:30,094 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 91) ISPN000079: Channel `ejb` local address is `mi104-09`, physical addresses are `[127.0.0.1:55200]`
+2023-11-30 08:13:30,094 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 92) ISPN000079: Channel `ejb` local address is `mi104-09`, physical addresses are `[127.0.0.1:55200]`
+2023-11-30 08:13:30,094 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 94) ISPN000079: Channel `ejb` local address is `mi104-09`, physical addresses are `[127.0.0.1:55200]`
+2023-11-30 08:13:30,150 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/data/activemq/journal,bindingsDirectory=/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/data/activemq/bindings,largeMessagesDirectory=/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/data/activemq/largemessages,pagingDirectory=/home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/data/activemq/paging)
+2023-11-30 08:13:30,665 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221012: Using AIO Journal
+2023-11-30 08:13:31,199 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'bank-ear.ear/bank-ejb.jar#primary'
+2023-11-30 08:13:31,205 INFO  [org.infinispan.CONFIG] (MSC service thread 1-8) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-11-30 08:13:31,206 INFO  [org.infinispan.CONFIG] (MSC service thread 1-8) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-11-30 08:13:31,219 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 92) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2023-11-30 08:13:31,231 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 92) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-11-30 08:13:31,318 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 91) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2023-11-30 08:13:31,629 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 91) HHH000412: Hibernate Core {5.3.28.Final}
+2023-11-30 08:13:31,631 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 91) HHH000206: hibernate.properties not found
+2023-11-30 08:13:32,487 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 91) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-11-30 08:13:32,889 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'bank-ear.ear/bank-ejb.jar#primary'
+2023-11-30 08:13:32,944 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2023-11-30 08:13:32,944 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2023-11-30 08:13:32,945 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2023-11-30 08:13:32,945 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2023-11-30 08:13:32,978 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221034: Waiting indefinitely to obtain live lock
+2023-11-30 08:13:32,979 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221035: Live Server Obtained live lock
+2023-11-30 08:13:33,237 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 91) HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-11-30 08:13:33,355 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 91) HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@42f65ea5
+2023-11-30 08:13:33,355 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 91) HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@42f65ea5
+2023-11-30 08:13:33,356 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 91) HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@4d240004
+2023-11-30 08:13:33,356 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 91) HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@4d240004
+2023-11-30 08:13:33,367 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 91) Envers integration enabled? : true
+2023-11-30 08:13:33,925 WARN  [org.hibernate.boot.internal.SessionFactoryOptionsBuilder] (ServerService Thread Pool -- 91) Unrecognized hbm2ddl_auto value : create-only.  Supported values include 'create', 'create-drop', 'update', 'none' and 'validate'.  Ignoring
+2023-11-30 08:13:34,578 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 91) GenerationTarget encountered exception accepting command : Error executing DDL "create sequence hibernate_sequence start with 1 increment by  1" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create sequence hibernate_sequence start with 1 increment by  1" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:290)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:129)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+Caused by: Error : 955, Position : 16, Sql = create sequence hibernate_sequence start with 1 increment by  1, OriginalSql = create sequence hibernate_sequence start with 1 increment by  1, Error Msg = ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 37 more
+
+2023-11-30 08:13:34,582 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 91) GenerationTarget encountered exception accepting command : Error executing DDL "create table Account (id number(19,0) not null, nom varchar2(255 char), solde float not null, primary key (id))" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table Account (id number(19,0) not null, nom varchar2(255 char), solde float not null, primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:129)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+Caused by: Error : 955, Position : 13, Sql = create table Account (id number(19,0) not null, nom varchar2(255 char), solde float not null, primary key (id)), OriginalSql = create table Account (id number(19,0) not null, nom varchar2(255 char), solde float not null, primary key (id)), Error Msg = ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 37 more
+
+2023-11-30 08:13:34,585 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 91) GenerationTarget encountered exception accepting command : Error executing DDL "create table Transaction (id number(19,0) not null, montant float not null, typeTransaction varchar2(255 char), Account_id number(19,0), primary key (id))" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table Transaction (id number(19,0) not null, montant float not null, typeTransaction varchar2(255 char), Account_id number(19,0), primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:129)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+Caused by: Error : 955, Position : 13, Sql = create table Transaction (id number(19,0) not null, montant float not null, typeTransaction varchar2(255 char), Account_id number(19,0), primary key (id)), OriginalSql = create table Transaction (id number(19,0) not null, montant float not null, typeTransaction varchar2(255 char), Account_id number(19,0), primary key (id)), Error Msg = ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 37 more
+
+2023-11-30 08:13:34,599 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 91) GenerationTarget encountered exception accepting command : Error executing DDL "alter table Transaction add constraint FKopp9e87n02hpekbvteog4bf5y foreign key (Account_id) references Account" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table Transaction add constraint FKopp9e87n02hpekbvteog4bf5y foreign key (Account_id) references Account" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:129)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02275: une telle contrainte référentielle existe déjà dans la table
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+Caused by: Error : 2275, Position : 67, Sql = alter table Transaction add constraint FKopp9e87n02hpekbvteog4bf5y foreign key (Account_id) references Account, OriginalSql = alter table Transaction add constraint FKopp9e87n02hpekbvteog4bf5y foreign key (Account_id) references Account, Error Msg = ORA-02275: une telle contrainte référentielle existe déjà dans la table
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 37 more
+
+2023-11-30 08:13:34,602 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 91) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@a45101'
+2023-11-30 08:13:34,609 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 91) HHH000397: Using ASTQueryTranslatorFactory
+2023-11-30 08:13:37,418 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2023-11-30 08:13:37,421 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2023-11-30 08:13:37,423 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2023-11-30 08:13:37,423 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2023-11-30 08:13:37,423 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2023-11-30 08:13:37,423 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2023-11-30 08:13:37,749 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221007: Server is now live
+2023-11-30 08:13:37,750 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 90) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.19.1 [default, nodeID=9a09de88-8b95-11ee-a99e-30d042fde56f] 
+2023-11-30 08:13:37,754 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 90) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2023-11-30 08:13:37,764 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 91) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2023-11-30 08:13:37,856 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0007: Registered connection factory java:/JmsXA
+2023-11-30 08:13:37,889 INFO  [org.apache.activemq.artemis.ra.ActiveMQRALogger] (MSC service thread 1-1) AMQ151007: Resource adaptor started
+2023-11-30 08:13:37,889 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2023-11-30 08:13:37,891 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0002: Bound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2023-11-30 08:13:37,891 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2023-11-30 08:13:37,893 WARN  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0006: ActivationConfigProperty maxPoolSize will be ignored since it is not allowed by resource adapter: activemq-ra
+2023-11-30 08:13:37,908 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0042: Started message driven bean 'EJBbankQueue' with 'activemq-ra.rar' resource adapter
+2023-11-30 08:13:38,242 SEVERE [javax.enterprise.resource.webcontainer.jsf.application.view] (MSC service thread 1-8) Unable to obtain CDI 1.1 utilities for Mojarra
+2023-11-30 08:13:38,248 SEVERE [javax.enterprise.resource.webcontainer.jsf.flow] (MSC service thread 1-8) Unable to obtain CDI 1.1 utilities for Mojarra
+2023-11-30 08:13:39,299 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 99) Initialisation de Mojarra 2.3.17.SP01 pour le contexte «/bank-web»
+2023-11-30 08:13:40,044 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 99) WFLYUT0021: Registered web context: '/bank-web' for server 'default-server'
+2023-11-30 08:13:40,114 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "bank-ear.ear" (runtime-name : "bank-ear.ear")
+2023-11-30 08:13:40,114 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "ojdbc8.jar" (runtime-name : "ojdbc8.jar")
+2023-11-30 08:13:40,240 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-30 08:13:40,249 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) started in 34279ms - Started 892 of 1112 services (478 services are lazy, passive or on-demand) - Server configuration file in use: standalone-full-ha.xml
+2023-11-30 08:13:40,261 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-30 08:13:40,261 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-30 08:14:28,097 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/data/content/8d/e11033c9948f6636bbc0aa625fc93ef0264170/content
+2023-11-30 08:14:28,104 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/bankDS]
+2023-11-30 08:14:28,109 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 104) WFLYUT0022: Unregistered web context: '/bank-web' from server 'default-server'
+2023-11-30 08:14:28,140 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/queue/SampleQueue
+2023-11-30 08:14:28,142 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 103) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'bank-ear.ear/bank-ejb.jar#primary'
+2023-11-30 08:14:28,143 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 103) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@54b75e13
+2023-11-30 08:14:28,146 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 103) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'bank-ear.ear/bank-ejb.jar#primary'
+2023-11-30 08:14:28,264 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: bank-ejb.jar) in 162ms
+2023-11-30 08:14:28,324 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: bank-web.war) in 222ms
+2023-11-30 08:14:28,348 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment bank-ear.ear (runtime-name: bank-ear.ear) in 246ms
+2023-11-30 08:14:28,352 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "bank-ear.ear" (runtime-name: "bank-ear.ear")
+2023-11-30 08:14:28,353 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment bank-ear.ear (runtime-name: bank-ear.ear) in 1ms
+2023-11-30 08:14:28,355 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "bank-ear.ear" (runtime-name: "bank-ear.ear")
+2023-11-30 08:14:28,616 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "bank-ejb.jar")
+2023-11-30 08:14:28,616 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "bank-web.war")
+2023-11-30 08:14:28,649 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2023-11-30 08:14:28,650 WARN  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0525: The 'mappedName' in Jakarta Enterprise Beans  annotations is not supported. Value of 'myInitializerBean' for Jakarta Enterprise Beans 'InitializerBean' will be ignored.
+2023-11-30 08:14:28,656 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for primary
+2023-11-30 08:14:28,889 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV53020253: Second level cache enabled for bank-ear.ear/bank-ejb.jar#primary
+2023-11-30 08:14:28,890 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/bankDS]
+2023-11-30 08:14:28,891 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 103) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'bank-ear.ear/bank-ejb.jar#primary'
+2023-11-30 08:14:28,891 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 103) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2023-11-30 08:14:28,893 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment bank-ear.ear
+2023-11-30 08:14:28,948 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment bank-ejb.jar
+2023-11-30 08:14:28,949 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ReaderBean' in deployment unit 'subdeployment "bank-ejb.jar" of deployment "bank-ear.ear"' are as follows:
+
+	java:global/bank-ear/bank-ejb/ReaderBean!reader.LocalReader
+	java:app/bank-ejb/ReaderBean!reader.LocalReader
+	java:module/ReaderBean!reader.LocalReader
+	java:global/bank-ear/bank-ejb/ReaderBean!reader.RemoteReader
+	java:app/bank-ejb/ReaderBean!reader.RemoteReader
+	java:module/ReaderBean!reader.RemoteReader
+	java:jboss/exported/bank-ear/bank-ejb/ReaderBean!reader.RemoteReader
+	ejb:bank-ear/bank-ejb/ReaderBean!reader.RemoteReader
+
+2023-11-30 08:14:28,950 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'InitializerBean' in deployment unit 'subdeployment "bank-ejb.jar" of deployment "bank-ear.ear"' are as follows:
+
+	java:global/bank-ear/bank-ejb/InitializerBean!init.Initializer
+	java:app/bank-ejb/InitializerBean!init.Initializer
+	java:module/InitializerBean!init.Initializer
+	java:jboss/exported/bank-ear/bank-ejb/InitializerBean!init.Initializer
+	ejb:bank-ear/bank-ejb/InitializerBean!init.Initializer
+	java:global/bank-ear/bank-ejb/InitializerBean
+	java:app/bank-ejb/InitializerBean
+	java:module/InitializerBean
+
+2023-11-30 08:14:28,950 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'WriterBean' in deployment unit 'subdeployment "bank-ejb.jar" of deployment "bank-ear.ear"' are as follows:
+
+	java:global/bank-ear/bank-ejb/WriterBean!writer.RemoteWriter
+	java:app/bank-ejb/WriterBean!writer.RemoteWriter
+	java:module/WriterBean!writer.RemoteWriter
+	java:jboss/exported/bank-ear/bank-ejb/WriterBean!writer.RemoteWriter
+	ejb:bank-ear/bank-ejb/WriterBean!writer.RemoteWriter
+	java:global/bank-ear/bank-ejb/WriterBean!writer.LocalWriter
+	java:app/bank-ejb/WriterBean!writer.LocalWriter
+	java:module/WriterBean!writer.LocalWriter
+
+2023-11-30 08:14:28,954 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: NoopTracer
+2023-11-30 08:14:28,957 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment bank-web.war
+2023-11-30 08:14:29,055 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-30 08:14:29,055 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=bank-ear.ear!bank-web.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@76cbe1ba, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=MI104-09, jaeger.version=Java-1.6.0, ip=172.31.18.38}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-30 08:14:29,079 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/queue/SampleQueue
+2023-11-30 08:14:29,090 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for bank-ear.ear/bank-ejb.jar#primary
+2023-11-30 08:14:29,106 WARN  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0006: ActivationConfigProperty maxPoolSize will be ignored since it is not allowed by resource adapter: activemq-ra
+2023-11-30 08:14:29,107 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0042: Started message driven bean 'EJBbankQueue' with 'activemq-ra.rar' resource adapter
+2023-11-30 08:14:29,115 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 103) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'bank-ear.ear/bank-ejb.jar#primary'
+2023-11-30 08:14:29,117 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 103) HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-11-30 08:14:29,131 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 103) HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@42f65ea5
+2023-11-30 08:14:29,131 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 103) HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@42f65ea5
+2023-11-30 08:14:29,131 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 103) HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@4d240004
+2023-11-30 08:14:29,131 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 103) HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@4d240004
+2023-11-30 08:14:29,132 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 103) Envers integration enabled? : true
+2023-11-30 08:14:29,136 WARN  [org.hibernate.boot.internal.SessionFactoryOptionsBuilder] (ServerService Thread Pool -- 103) Unrecognized hbm2ddl_auto value : create-only.  Supported values include 'create', 'create-drop', 'update', 'none' and 'validate'.  Ignoring
+2023-11-30 08:14:29,175 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 103) GenerationTarget encountered exception accepting command : Error executing DDL "create sequence hibernate_sequence start with 1 increment by  1" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create sequence hibernate_sequence start with 1 increment by  1" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:290)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:129)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+Caused by: Error : 955, Position : 16, Sql = create sequence hibernate_sequence start with 1 increment by  1, OriginalSql = create sequence hibernate_sequence start with 1 increment by  1, Error Msg = ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 37 more
+
+2023-11-30 08:14:29,178 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 103) GenerationTarget encountered exception accepting command : Error executing DDL "create table Account (id number(19,0) not null, nom varchar2(255 char), solde float not null, primary key (id))" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table Account (id number(19,0) not null, nom varchar2(255 char), solde float not null, primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:129)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+Caused by: Error : 955, Position : 13, Sql = create table Account (id number(19,0) not null, nom varchar2(255 char), solde float not null, primary key (id)), OriginalSql = create table Account (id number(19,0) not null, nom varchar2(255 char), solde float not null, primary key (id)), Error Msg = ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 37 more
+
+2023-11-30 08:14:29,181 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 103) GenerationTarget encountered exception accepting command : Error executing DDL "create table Transaction (id number(19,0) not null, montant float not null, typeTransaction varchar2(255 char), Account_id number(19,0), primary key (id))" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table Transaction (id number(19,0) not null, montant float not null, typeTransaction varchar2(255 char), Account_id number(19,0), primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:129)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+Caused by: Error : 955, Position : 13, Sql = create table Transaction (id number(19,0) not null, montant float not null, typeTransaction varchar2(255 char), Account_id number(19,0), primary key (id)), OriginalSql = create table Transaction (id number(19,0) not null, montant float not null, typeTransaction varchar2(255 char), Account_id number(19,0), primary key (id)), Error Msg = ORA-00955: ce nom d'objet existe déjà
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 37 more
+
+2023-11-30 08:14:29,189 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 103) GenerationTarget encountered exception accepting command : Error executing DDL "alter table Transaction add constraint FKopp9e87n02hpekbvteog4bf5y foreign key (Account_id) references Account" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table Transaction add constraint FKopp9e87n02hpekbvteog4bf5y foreign key (Account_id) references Account" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:129)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02275: une telle contrainte référentielle existe déjà dans la table
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+Caused by: Error : 2275, Position : 67, Sql = alter table Transaction add constraint FKopp9e87n02hpekbvteog4bf5y foreign key (Account_id) references Account, OriginalSql = alter table Transaction add constraint FKopp9e87n02hpekbvteog4bf5y foreign key (Account_id) references Account, Error Msg = ORA-02275: une telle contrainte référentielle existe déjà dans la table
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 37 more
+
+2023-11-30 08:14:29,190 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 103) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@a45101'
+2023-11-30 08:14:29,190 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 103) HHH000397: Using ASTQueryTranslatorFactory
+2023-11-30 08:14:29,282 SEVERE [javax.enterprise.resource.webcontainer.jsf.application.view] (MSC service thread 1-1) Unable to obtain CDI 1.1 utilities for Mojarra
+2023-11-30 08:14:29,283 SEVERE [javax.enterprise.resource.webcontainer.jsf.flow] (MSC service thread 1-1) Unable to obtain CDI 1.1 utilities for Mojarra
+2023-11-30 08:14:29,352 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 19) Initialisation de Mojarra 2.3.17.SP01 pour le contexte «/bank-web»
+2023-11-30 08:14:29,486 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 19) WFLYUT0021: Registered web context: '/bank-web' for server 'default-server'
+2023-11-30 08:14:29,531 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "bank-ear.ear"
+2023-11-30 08:14:29,531 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "bank-ear.ear" with deployment "bank-ear.ear"
+2023-11-30 08:14:29,534 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home4/ld754555/Documents/m2/S1/DBED/JEE/projet/wildfly-26.1.3.Final/standalone/data/content/2f/21695442decbb45c9b73b6425f0bc44825d681/content
+2023-11-30 08:14:44,302 INFO  [org.jboss.ejb.client] (default task-1) JBoss EJB Client version 4.0.44.Final
+2023-11-30 08:14:57,126 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2aa388fc-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6886, durable=true, address=jms.queue.EJBbankQueue,userID=2aa388fc-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:57,746 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2aaa66cd-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6887, durable=true, address=jms.queue.EJBbankQueue,userID=2aaa66cd-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:58,002 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2aad9b1e-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6889, durable=true, address=jms.queue.EJBbankQueue,userID=2aad9b1e-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:58,076 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2aafbdff-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6890, durable=true, address=jms.queue.EJBbankQueue,userID=2aafbdff-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:58,118 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2af4b640-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6891, durable=true, address=jms.queue.EJBbankQueue,userID=2af4b640-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:58,161 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2af6d921-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6892, durable=true, address=jms.queue.EJBbankQueue,userID=2af6d921-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:58,198 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2af92312-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6893, durable=true, address=jms.queue.EJBbankQueue,userID=2af92312-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:58,239 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2b00c433-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6894, durable=true, address=jms.queue.EJBbankQueue,userID=2b00c433-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:58,283 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2b0c35e4-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6895, durable=true, address=jms.queue.EJBbankQueue,userID=2b0c35e4-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:14:58,321 INFO  [stdout] (Thread-1 (ActiveMQ-client-global-threads)) Reçoit les messages JMS: ActiveMQMessage[ID:2b0e7fd5-8f50-11ee-8b37-30d042fdde48]:PERSISTENT/ClientMessageImpl[messageID=6897, durable=true, address=jms.queue.EJBbankQueue,userID=2b0e7fd5-8f50-11ee-8b37-30d042fdde48,properties=TypedProperties[__AMQ_CID=2aa0c9d6-8f50-11ee-8b37-30d042fdde48,_AMQ_ROUTING_TYPE=1]]
+2023-11-30 08:16:07,876 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0272: Suspending server
+2023-11-30 08:16:07,879 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-30 08:16:07,881 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-11-30 08:16:07,884 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/bankDS]
+2023-11-30 08:16:07,892 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-11-30 08:16:07,893 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2023-11-30 08:16:07,895 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 114) WFLYUT0022: Unregistered web context: '/bank-web' from server 'default-server'
+2023-11-30 08:16:07,904 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 106) ISPN000080: Disconnecting JGroups channel `ejb`
+2023-11-30 08:16:07,904 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 107) ISPN000080: Disconnecting JGroups channel `ejb`
+2023-11-30 08:16:07,908 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2023-11-30 08:16:07,909 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 113) MODCLUSTER000002: Initiating mod_cluster shutdown
+2023-11-30 08:16:07,914 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 113) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'bank-ear.ear/bank-ejb.jar#primary'
+2023-11-30 08:16:07,914 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/queue/SampleQueue
+2023-11-30 08:16:07,914 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-11-30 08:16:07,914 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0119: Unbinding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2023-11-30 08:16:07,914 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 113) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@42e956e8
+2023-11-30 08:16:07,915 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0011: Unbound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2023-11-30 08:16:07,915 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-11-30 08:16:07,916 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 113) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'bank-ear.ear/bank-ejb.jar#primary'
+2023-11-30 08:16:07,916 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:/OracleDS]
+2023-11-30 08:16:07,922 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 113) ISPN000080: Disconnecting JGroups channel `ejb`
+2023-11-30 08:16:07,926 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: bank-ejb.jar) in 39ms
+2023-11-30 08:16:07,926 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = ojdbc8.jar
+2023-11-30 08:16:07,930 INFO  [org.apache.activemq.artemis.ra.ActiveMQRALogger] (ServerService Thread Pool -- 106) AMQ151003: resource adaptor stopped
+2023-11-30 08:16:07,937 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 107) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-11-30 08:16:07,938 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-11-30 08:16:07,938 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow AJP listener ajp suspending
+2023-11-30 08:16:07,939 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-11-30 08:16:07,939 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow AJP listener ajp stopped, was bound to 127.0.0.1:8009
+2023-11-30 08:16:07,939 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 107) ISPN000080: Disconnecting JGroups channel `ejb`
+2023-11-30 08:16:07,941 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ojdbc8.jar (runtime-name: ojdbc8.jar) in 57ms
+2023-11-30 08:16:07,960 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: bank-web.war) in 77ms
+2023-11-30 08:16:07,964 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment bank-ear.ear (runtime-name: bank-ear.ear) in 78ms
+2023-11-30 08:16:08,142 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 106) AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.19.1 [9a09de88-8b95-11ee-a99e-30d042fde56f] stopped, uptime 2 minutes
+2023-11-30 08:16:08,143 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2023-11-30 08:16:08,143 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-11-30 08:16:08,144 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.2.19.Final stopping
+2023-11-30 08:16:08,151 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 267ms

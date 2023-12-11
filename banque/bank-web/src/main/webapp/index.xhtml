@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+  <head>
+    <meta name="description" content="Interface simplifiée pour gestion bancaire"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Application Bancaire Simplifiée</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Application Bancaire</h1>
+      <div class="options">
+        <form action="display" method="get">
+          <input type="submit" value="Voir les comptes" />
+        </form>
+        <form action="secured/Admin" method="get">
+          <input type="submit" value="Nouveau compte" />
+        </form>
+        <form action="MdbServlet" method="get">
+          <input type="submit" value="Appliquer des opérations" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
