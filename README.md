@@ -9,7 +9,7 @@ Ce document fournit les instructions pour lancer un projet EJB3 en utilisant le 
    Ouvrez un terminal et naviguez vers le dossier d'installation de WildFly. Utilisez la commande suivante pour démarrer le serveur avec une configuration spécifique :
 
     ```bash
-    cd banque
+    cd wildfly-26.1.3.Final
    ```
 
    ```bash
